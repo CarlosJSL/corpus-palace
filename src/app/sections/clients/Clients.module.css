@@ -1,0 +1,32 @@
+.ourClients > h2 {
+  text-align: center;
+  font-size: 1.375rem;
+}
+
+.ourClients {
+  display: flex;
+  flex-direction: column;
+  padding: 12px 10%;
+}
+
+.ourClientsContainer {
+  margin: 50px 0px;
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 745px) {
+  .ourClientsContainer {
+    margin: 160px 0px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .ourClientsContainer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

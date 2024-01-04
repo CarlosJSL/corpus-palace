@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  border: 1px solid #000;
+  background: #000;
+  height: 40px;
+  padding: 8px 20px;
+  color: white;
+  font-family: var(--font-josefin-sans);
+  gap: 10px;
+  cursor: pointer;
+}
+
+.primary {
+  background: #000;
+}
+
+.secondary {
+  background: white;
+  color: #000;
+}
+
+.tertiary {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+}

@@ -1,0 +1,56 @@
+.container {
+  background: url("/images/home2.png") rgba(0, 0, 0, 0.57);
+  width: 100%;
+  background-size: cover;
+  background-position: right;
+  background-blend-mode: overlay;
+  height: 730px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.centeredContainer {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 320px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-family: var(--font-josefin-slab);
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 300;
+}
+
+.centeredContainer > p:first-child {
+  font-weight: 600;
+  color: #fdcba3;
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 1400px) {
+  .centeredContainer {
+    width: 32%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 2.1rem;
+    line-height: 48px;
+  }
+
+  .centeredContainer {
+    width: 60%;
+  }
+
+  .container {
+    background-position: center;
+  }
+}

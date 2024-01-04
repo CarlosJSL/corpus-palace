@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  width: 280px;
+  min-height: 300px;
+  flex-direction: column;
+  text-align: center;
+}
+
+.comment {
+  font-family: var(--font-josefin-sans);
+  color: #414141;
+  line-height: 22px;
+  margin: 15px 0px;
+  font-weight: 300;
+}
+
+.box {
+  display: flex;
+}
+
+.imageBox {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.personImage {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.blockquote {
+  position: absolute;
+}
+
+@media (min-width: 425px) {
+  .container {
+    width: 380px;
+  }
+}
